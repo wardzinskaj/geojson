@@ -1,0 +1,10 @@
+
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [122.4181, -2.8995]
+  },
+  "properties": {
+    "id": "usb000t2cn"
+  }
