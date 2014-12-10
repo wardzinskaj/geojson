@@ -1,1 +1,10 @@
-{ loc: { type: "Point", coordinates: [ 40, 5 ] } }
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [125.6, 10.1]
+  },
+  "properties": {
+    "name": "Dinagat Islands"
+  }
+}
