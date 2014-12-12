@@ -46,6 +46,13 @@ db.geojson.find( { geometry: { $near: { $geometry: dzakarta } } } ).limit(1)
 
 [wynik1.geojson](https://github.com/wardzinskaj/geojson/blob/master/near1.geojson) 
 
+var austrIndo = {  "type": "Polygon", "coordinates": [ [ [99.140625,-45.828799], [99.140625,3.864254], [153.281250,3.864254], [153.281250,-45.82879925],[99.140625,-45.828799] ] ] }
+
+db.geojson.find({ geometry: { $geoWithin: { $geometry: austrIndo } } })
+
+[wynik_austrIndo.json](https://github.com/wardzinskaj/geojson/blob/master/wynik8.json)
+[wynik_austrIndo.geojson](https://github.com/wardzinskaj/geojson/blob/master/wynik8.geojson)
+
 var papua = {
 <br><ln>   "type": "Polygon",</ln>
 <br><ln>   "coordinates": [</ln>
