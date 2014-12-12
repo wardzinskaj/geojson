@@ -1,0 +1,10 @@
+{
+    "miejsce" : "Jakarta",
+    "loc" : {
+        "type" : "Point",
+        "coordinates" : [
+            106.859000,
+            -6.156000
+        ]
+    }
+}
