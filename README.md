@@ -53,16 +53,7 @@ db.geojson.find( {  geometry: {   $near: {    $geometry: {     type : "Point",  
 
 [wynik6.json](https://github.com/wardzinskaj/geojson/blob/master/wynik6.json)
 
-db.geojson.find( {
-<br>   geometry: {
-<br>    $geoIntersects: {
-<br>     $geometry: {
-<br>      type : "LineString",
-<br>       coordinates : [[126.926, 1.7742],[126.926, -2.0656]]
-<br>     }
-<br>    }
-<br>   }
-<br>  })
+db.geojson.find( {   geometry: {    $geoIntersects: {     $geometry: {      type : "LineString",       coordinates : [[126.926, 10.7742],[126.926, -2.0656]]     }    }   }  })
 
 [wynik7.json](https://github.com/wardzinskaj/geojson/blob/master/wynik7.json)
 
