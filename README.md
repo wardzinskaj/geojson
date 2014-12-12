@@ -15,11 +15,11 @@ db.geojson.find( { geometry: { $near: { $geometry: dzakarta } } } ).limit(1)
 
 [wynik1.json](https://github.com/wardzinskaj/geojson/blob/master/wynik1.json)
 
-wynik1.geojson 
+[wynik1.geojson](https://github.com/wardzinskaj/geojson/blob/master/near1.geojson) 
 
 var papua = {
-<br>   "type": "Polygon",
-<br>   "coordinates": [
+<br><ln>   "type": "Polygon",</ln>
+<br><ln>   "coordinates": [</ln>
 <br>     [
 <br> [154.072800, -6.502700],
 <br> [154.237000, -6.427100],
