@@ -61,7 +61,7 @@ db.geojson.find( {  geometry: {   $near: {    $geometry: {     type : "Point",  
 db.geojson.find( {   geometry: {    $geoIntersects: {     $geometry: {      type : "LineString",       coordinates : [[126.926, 10.7742],[126.926, -2.0656]]     }    }   }  })
 
 [wynik7.json](https://github.com/wardzinskaj/geojson/blob/master/wynik7.json)
-[wynik7.json wraz z obiektem LineString z zapytania](https://github.com/wardzinskaj/geojson/blob/master/wynik7.json)
+[wynik7.json wraz z obiektem LineString z zapytania](https://github.com/wardzinskaj/geojson/blob/master/wynik7.geojson)
 
 
 
