@@ -46,28 +46,42 @@ db.geojson.find( { geometry: { $near: { $geometry: dzakarta } } } ).limit(1)
 
 [wynik1.geojson](https://github.com/wardzinskaj/geojson/blob/master/near1.geojson) 
 
-var austrIndo = {  "type": "Polygon", "coordinates": [ [ [99.140625,-45.828799], [99.140625,3.864254], [153.281250,3.864254], [153.281250,-45.82879925],[99.140625,-45.828799] ] ] }
+var austrIndo = {
+  "type": "Polygon", 
+  "coordinates": [
+   [
+   [99.140625,-45.828799], 
+   [99.140625,3.864254], 
+   [153.281250,3.864254], 
+   [153.281250,-45.82879925],
+   [99.140625,-45.828799] 
+   	] 
+   ] 
+  }
+  
+  ```
 
 db.geojson.find({ geometry: { $geoWithin: { $geometry: austrIndo } } })
 
 [wynik_austrIndo.json](https://github.com/wardzinskaj/geojson/blob/master/wynik8.json)
 [wynik_austrIndo.geojson](https://github.com/wardzinskaj/geojson/blob/master/wynik8.geojson)
-
+```
 var papua = {
-<br><ln>   "type": "Polygon",</ln>
-<br><ln>   "coordinates": [</ln>
-<br>     [
-<br> [154.072800, -6.502700],
-<br> [154.237000, -6.427100],
-<br> [154.321100, -6.442300],
-<br> [154.328300, -6.365800],
-<br> [154.353400, -6.473700],
-<br> [154.458000, -6.484200],
-<br> [154.583100, -6.499300],
-<br> [154.072800, -6.502700],
-<br>     ]
-<br>   ]
-<br> }
+  "type": "Polygon",
+  "coordinates": 
+     [
+ [154.072800, -6.502700],
+ [154.237000, -6.427100],
+ [154.321100, -6.442300],
+ [154.328300, -6.365800],
+ [154.353400, -6.473700],
+ [154.458000, -6.484200],
+ [154.583100, -6.499300],
+ [154.072800, -6.502700],
+     ]
+   ]
+ }
+```
 
 db.geojson.find({ geometry: { $geoIntersects: { $geometry: papua } } })
 
