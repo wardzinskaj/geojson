@@ -35,35 +35,32 @@ var papua = {
 
 db.geojson.find({ geometry: { $geoIntersects: { $geometry: papua } } })
 
-[wynik2.json](https://github.com/wardzinskaj/geojson/blob/master/wynik2.json)
+[wynik2.json](https://github.com/wardzinskaj/geojson/blob/master/wynik2.json)<br>
 [wynik2.geojson](https://github.com/wardzinskaj/geojson/blob/master/wynik2.geojson)
 
 db.geojson.find({ geometry: { $geoWithin: { $geometry: papua } } })
 
-[wynik3.json](https://github.com/wardzinskaj/geojson/blob/master/wynik3.json)
-[wynik3.json](https://github.com/wardzinskaj/geojson/blob/master/wynik3.geojson)
+[wynik3.json](https://github.com/wardzinskaj/geojson/blob/master/wynik3.json)<br>
+[wynik3.geojson](https://github.com/wardzinskaj/geojson/blob/master/wynik3.geojson)
 
 db.geojson.find( {  geometry: {   $near: {    $geometry: {     type : "Point",      coordinates : [126.926, 1.7742]    },    $maxDistance:5000,   }  } } )
 
-[wynik4.json](https://github.com/wardzinskaj/geojson/blob/master/wynik4.json)
-[wynik4.json](https://github.com/wardzinskaj/geojson/blob/master/wynik4.geojson)
+[wynik4.json](https://github.com/wardzinskaj/geojson/blob/master/wynik4.json)<br>
+[wynik4.geojson](https://github.com/wardzinskaj/geojson/blob/master/wynik4.geojson)
 
 db.geojson.find( {  geometry: {   $near: {    $geometry: {     type : "Point",      coordinates : [0,0]    },    $maxDistance:6250000,   }  } } )
 
-[wynik5.json](https://github.com/wardzinskaj/geojson/blob/master/wynik5.json)
-[wynik5.json](https://github.com/wardzinskaj/geojson/blob/master/wynik5.geojson)
+[wynik5.json](https://github.com/wardzinskaj/geojson/blob/master/wynik5.json)<br>
+[wynik5.geojson](https://github.com/wardzinskaj/geojson/blob/master/wynik5.geojson)
 
 db.geojson.find( {  geometry: {   $near: {    $geometry: {     type : "Point",      coordinates : [126.926, 1.7742]    },    $minDistance:17000000, $maxDistance:18000000   }  } } )
 
-[wynik6.json](https://github.com/wardzinskaj/geojson/blob/master/wynik6.json)
-[wynik6.json](https://github.com/wardzinskaj/geojson/blob/master/wynik6.geojson)
+[wynik6.json](https://github.com/wardzinskaj/geojson/blob/master/wynik6.json)<br>
+[wynik6.geojson](https://github.com/wardzinskaj/geojson/blob/master/wynik6.geojson)
 
 db.geojson.find( {   geometry: {    $geoIntersects: {     $geometry: {      type : "LineString",       coordinates : [[126.926, 10.7742],[126.926, -2.0656]]     }    }   }  })
 
-[wynik7.json](https://github.com/wardzinskaj/geojson/blob/master/wynik7.json)
-[wynik7.json wraz z obiektem LineString z zapytania](https://github.com/wardzinskaj/geojson/blob/master/wynik7.geojson)
-
-
-
+[wynik7.json](https://github.com/wardzinskaj/geojson/blob/master/wynik7.json)<br>
+[wynik7.geojson wraz z obiektem LineString z zapytania](https://github.com/wardzinskaj/geojson/blob/master/wynik7.geojson)
 
 
