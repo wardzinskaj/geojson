@@ -7,3 +7,66 @@ https://github.com/wbzyl/rails4-tutorial/blob/master/lib/doc/leafletjs/javascrip
 http://blog.mapillary.com/technology/2014/08/12/jq-power.html
 
 https://github.com/wardzinskaj/geojson/blob/master/proba.geojson
+
+
+var dzakarta = { type: "Point", coordinates: [ 106.859000, -6.156000] }
+
+db.geojson.find( { geometry: { $near: { $geometry: dzakarta } } } ).limit(1)
+
+wynik1.json (sformatowany)
+
+wynik1.geojson 
+
+var papua = {
+...   "type": "Polygon",
+...   "coordinates": [
+...     [
+... [154.072800, -6.502700],
+... [154.237000, -6.427100],
+... [154.321100, -6.442300],
+... [154.328300, -6.365800],
+... [154.353400, -6.473700],
+... [154.458000, -6.484200],
+... [154.583100, -6.499300],
+... [154.072800, -6.502700],
+...     ]
+...   ]
+... }
+
+db.geojson.find({ geometry: { $geoIntersects: { $geometry: papua } } })
+
+wynik2.json
+
+db.geojson.find({ geometry: { $geoWithin: { $geometry: papua } } })
+
+wynik3.json
+
+db.geojson.find( {  geometry: {   $near: {    $geometry: {     type : "Point",      coordinates : [126.926, 1.7742]    },    $maxDistance:5000,   }  } } )
+
+wynik4.json
+
+db.geojson.find( {  geometry: {   $near: {    $geometry: {     type : "Point",      coordinates : [0,0]    },    $maxDistance:6250000,   }  } } )
+
+wynik5.json
+
+db.geojson.find( {  geometry: {   $near: {    $geometry: {     type : "Point",      coordinates : [126.926, 1.7742]    },    $minDistance:17000000, $maxDistance:18000000   }  } } )
+
+wynik6.json
+
+db.geojson.find( {
+...   geometry: {
+...    $geoIntersects: {
+...     $geometry: {
+...      type : "LineString",
+...       coordinates : [[126.926, 1.7742],[126.926, -2.0656]]
+...     }
+...    }
+...   }
+...  })
+
+wynik7.json
+
+
+
+
+

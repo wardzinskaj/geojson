@@ -1,11 +1,10 @@
 {
-	"_id" : ObjectId("5470b1b0fbadfc746e0663bd"),
-    "miejsce" : "Jakarta",
-    "loc" : {
-        "type" : "Point",
-        "coordinates" : [
-            106.859000,
-            -6.156000
-        ]
-    }
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [106.859000, -6.156000]
+  },
+  "properties": {
+    "name": "Dzakarta"
+  }
 }

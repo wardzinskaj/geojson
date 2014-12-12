@@ -1,0 +1,41 @@
+{
+	"_id" : ObjectId("546ae53d724185cc9fdfc9d6"),
+	"type" : "Feature",
+	"properties" : {
+		"mag" : 5.7,
+		"place" : "113km NNE of Unaaha, Indonesia",
+		"time" : NumberLong("1417566425700"),
+		"updated" : NumberLong("1417618579000"),
+		"tz" : 480,
+		"url" : "http://comcat.cr.usgs.gov/earthquakes/eventpage/usb000t2cn",
+		"detail" : "http://comcat.cr.usgs.gov/fdsnws/event/1/query?eventid=usb000t2cn&format=geojson",
+		"felt" : null,
+		"cdi" : null,
+		"mmi" : 4.92,
+		"alert" : "green",
+		"status" : "reviewed",
+		"tsunami" : null,
+		"sig" : 500,
+		"net" : "us",
+		"code" : "b000t2cn",
+		"ids" : ",usb000t2cn,gcmt20141203002705,",
+		"sources" : ",us,gcmt,",
+		"types" : ",cap,dyfi,general-link,geoserve,losspager,moment-tensor,nearby-cities,origin,phase-data,shakemap,tectonic-summary,",
+		"nst" : null,
+		"dmin" : 1.878,
+		"rms" : 1.35,
+		"gap" : 35,
+		"magType" : "mb",
+		"type" : "earthquake",
+		"title" : "M 5.7 - 113km NNE of Unaaha, Indonesia"
+	},
+	"geometry" : {
+		"type" : "Point",
+		"coordinates" : [
+			122.4181,
+			-2.8995
+		]
+	},
+	"id" : "usb000t2cn"
+}
+
