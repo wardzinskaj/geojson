@@ -26,7 +26,7 @@ Prawie 14 godzin u mnie do kilkunastu minut a nawet kilku minut w przypadku bazy
 <p>Import do bazy Mongodb zużywał zdecydowanie mniej zasobów procesora oraz mniej pamięci RAM.</p>
 <p>W przypadku importu do bazy Oracle obciążenie procesora jest przez większość czasu maksymalne</p>
 
-<p>Program napisany w javie do dzielenia na tagi. Użyty został sterownik [mongo-java-driver-2.11.4] (http://central.maven.org/maven2/org/mongodb/mongo-java-driver)</p>
+Program napisany w javie do dzielenia na tagi. Użyty został sterownik  [mongo-java-driver-2.11.4](http://central.maven.org/maven2/org/mongodb/mongo-java-driver)
 <p>https://github.com/wardzinskaj/geojson/blob/master/Zad1c.java</p>
 
 <p>Zamiana danych na tagi obciążenie </p>
@@ -88,6 +88,7 @@ db.geojson.find({ geometry: { $geoIntersects: { $geometry: papua } } })
 
 [wynik2.json](https://github.com/wardzinskaj/geojson/blob/master/wynik2.json)<br>
 [wynik2.geojson](https://github.com/wardzinskaj/geojson/blob/master/wynik2.geojson)
+<img src="https://github.com/wardzinskaj/geojson/blob/master/wynik2.geojson"> 
 
 db.geojson.find({ geometry: { $geoWithin: { $geometry: papua } } })
 
