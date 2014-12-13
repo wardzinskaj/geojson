@@ -26,17 +26,12 @@ Prawie 14 godzin u mnie do kilkunastu minut a nawet kilku minut w przypadku bazy
 <p>Import do bazy Mongodb zużywał zdecydowanie mniej zasobów procesora oraz mniej pamięci RAM.</p>
 <p>W przypadku importu do bazy Oracle obciążenie procesora jest przez większość czasu maksymalne</p>
 
+<p>Zamiana danych na tagi obciążenie </p>
+https://github.com/wardzinskaj/geojson/blob/master/zamiana_na_tagi_java.PNG
+
 
 geojson
 =======
-https://github.com/Esri/geojson-utils <br>
-http://doublebyteblog.wordpress.com/2014/12/03/json-to-geojson-with-jq/ <br>
-https://jqplay.org/# <br>
-https://github.com/wbzyl/rails4-tutorial/blob/master/lib/doc/leafletjs/javascripts/geojson.js <br>
-http://blog.mapillary.com/technology/2014/08/12/jq-power.html
-
-https://github.com/wardzinskaj/geojson/blob/master/proba.geojson
-
 
 var dzakarta = { type: "Point", coordinates: [ 106.859000, -6.156000] }
 
