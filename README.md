@@ -22,10 +22,15 @@ Prawie 14 godzin u mnie do kilkunastu minut a nawet kilku minut w przypadku bazy
 <p>Zliczenie zaimportowanych rekordów w bazie Oracle. </p>
 <img src="https://github.com/wardzinskaj/nosqlzal/blob/master/java_project/oracle_count.png">
 <p></p>
-<p>Czas importu do bazy Oracla wyniósł 13 godzin i 47 minut podczas gdy do bazy Mongodb tylko 27 minut.</p>
+<p>Czas importu do bazy Oracle wyniósł 13 godzin i 47 minut podczas gdy do bazy Mongodb tylko 27 minut.</p>
 <p>Import do bazy Mongodb zużywał zdecydowanie mniej zasobów procesora oraz mniej pamięci RAM.</p>
 <p>W przypadku importu do bazy Oracle obciążenie procesora jest przez większość czasu maksymalne</p>
+<p>Na wirtualnej maszynie jest procesor jednordzeniowy</p>
+<p>W najbliższym czasie spróbuję dostosować nieco maszynę wirtualną i sposób działania bazy tak aby zoptymalizować nieco importy.</p>
 
+
+=========== 
+ 
 Program napisany w javie do dzielenia na tagi. Użyty został sterownik  [mongo-java-driver-2.11.4](http://central.maven.org/maven2/org/mongodb/mongo-java-driver)
 <p>https://github.com/wardzinskaj/geojson/blob/master/Zad1c.java</p>
 
