@@ -29,7 +29,7 @@ Prawie 14 godzin u mnie do kilkunastu minut a nawet kilku minut w przypadku bazy
 Program napisany w javie do dzielenia na tagi. Użyty został sterownik  [mongo-java-driver-2.11.4](http://central.maven.org/maven2/org/mongodb/mongo-java-driver)
 <p>https://github.com/wardzinskaj/geojson/blob/master/Zad1c.java</p>
 
-<p>Zamiana danych na tagi obciążenie </p>
+<p>Zamiana danych ze Stringa na tagi - program wypisuje czas jaki zajęło przetwarzanie danych, liczbę tagów i liczbę tagów unikalnych.</p>
 <img src="https://github.com/wardzinskaj/geojson/blob/master/zamiana_na_tagi_java.PNG"> 
 
 
