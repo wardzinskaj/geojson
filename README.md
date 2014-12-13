@@ -27,7 +27,8 @@ Prawie 14 godzin u mnie do kilkunastu minut a nawet kilku minut w przypadku bazy
 <p>W przypadku importu do bazy Oracle obciążenie procesora jest przez większość czasu maksymalne</p>
 
 <p>Zamiana danych na tagi obciążenie </p>
-https://github.com/wardzinskaj/geojson/blob/master/zamiana_na_tagi_java.PNG
+<img src="https://github.com/wardzinskaj/geojson/blob/master/zamiana_na_tagi_java.PNG"> 
+
 
 
 geojson
