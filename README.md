@@ -46,12 +46,9 @@ var dzakarta = { type: "Point", coordinates: [ 106.859000, -6.156000] }
 
 db.geojson.find( { geometry: { $near: { $geometry: dzakarta } } } ).limit(1)
 
-<p>Markery można zmienić wykorzystując Id z projektu [Maki](https://www.mapbox.com/maki/), tak jak to zrobiłam w </p>
-
-
 [wynik1.json](https://github.com/wardzinskaj/geojson/blob/master/wynik1.json)
 
-<p>Markery można zmienić wykorzystując Id z projektu [Maki](https://www.mapbox.com/maki/), tak jak to zrobiłam w poniższym pliku </p>
+<p>Markery można zmienić wykorzystując Id z projektu [Maki](https://www.mapbox.com/maki/). W poniżej wskazanym pliku użyłam, może nieco drastycznej, ikonki "danger".</p>
 [wynik1.geojson](https://github.com/wardzinskaj/geojson/blob/master/near1.geojson) 
 
 ```
