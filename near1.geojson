@@ -5,6 +5,8 @@
     "coordinates": [122.418100, -2.899500]
   },
   "properties": {
-    "name": "113kmUnaaha"
+    "name": "113kmUnaaha",
+    "marker-size": "medium",
+    "marker-symbol": "danger",
   }
 }
