@@ -88,7 +88,7 @@ db.geojson.find({ geometry: { $geoIntersects: { $geometry: papua } } })
 
 [wynik2.json](https://github.com/wardzinskaj/geojson/blob/master/wynik2.json)<br>
 [wynik2.geojson](https://github.com/wardzinskaj/geojson/blob/master/wynik2.geojson)
-<img src="https://github.com/wardzinskaj/geojson/blob/master/wynik2.geojson"> 
+
 
 db.geojson.find({ geometry: { $geoWithin: { $geometry: papua } } })
 
