@@ -1,5 +1,8 @@
 {
     "type": "GeometryCollection",
+      "properties": {
+    "marker-symbol": "danger"
+  },
     "geometries": [
         {
             "type": "Point",
@@ -58,7 +61,5 @@
             ]
         }
     ],
-  "properties": {
-    "marker-symbol": "danger"
-  }
+
 }
