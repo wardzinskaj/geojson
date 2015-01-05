@@ -1,11 +1,12 @@
 {
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [122.418100, -2.899500]
+  "type": "GeometryCollection",
+  "geometries": {
+    "type": "MultiPoint",
+    "coordinates": [[122.418100, -2.899500],
+	 [ 106.859000, -6.156000]
+	]
   },
   "properties": {
-    "name": "113kmUnaaha",
     "marker-symbol": "danger"
   }
 }
