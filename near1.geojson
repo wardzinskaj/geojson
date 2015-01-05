@@ -1,7 +1,5 @@
 {
-      "properties": {
-    "marker-symbol": "danger"
-  },
+    
     "type": "GeometryCollection",
 
     "geometries": [
