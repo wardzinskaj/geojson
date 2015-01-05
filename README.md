@@ -5,14 +5,14 @@
 Zadania na zaliczenie
 
 ## MongoDB a Oracle
-========
+
 Jak się okazało na zajęciach moje importy trwały dużo dłużej niż studentów, których projekty były przeglądane.
 Prawie 14 godzin u mnie do kilkunastu minut a nawet kilku minut w przypadku bazy Oracle. W bazie Mongodb było nieco lepiej.
 
 Pytanie - jaki był powód tak długiego importu? Jak widać na jednym z obrazków zużycie procesora było 100%.
 Pracowałam na systemie operacyjnym Linux Centos (maszynie wirtualnej). Może należałoby zmienić sprzęt? Albo dostosować tak aby procesor był bardziej przyjazny 
 
-# Jak to wyglądało?
+### Jak to wyglądało?
 
 Import do bazy Mongodb przy użyciu mongoimport
  <img src="https://github.com/wardzinskaj/nosqlzal/blob/master/java_project/mongodb_import.png"> 
