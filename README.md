@@ -62,7 +62,7 @@ Czas importu do bazy Oracle.
 
  <img src="https://github.com/wardzinskaj/geojson/blob/master/czas.JPG">
  
-Z racji tego, że maszyna wirtualna miała tylko jeden procesor nie użyto opcji Parallel Loads zwielokrotniającej proces ładowania.
+Z racji tego, że maszyna wirtualna miała tylko jeden procesor, nie użyłam opcji Parallel Loads zwielokrotniającej proces ładowania.
 
 =======
 geojson
