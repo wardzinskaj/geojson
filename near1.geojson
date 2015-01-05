@@ -1,10 +1,4 @@
 {
-  "properties": {
-    "title": "trzęsienie ziemi",
-    "description": "małe",
-    "marker-size": "medium",
-    "marker-symbol": "danger"
-  },
     "type": "GeometryCollection",
     "geometries": [
         {
