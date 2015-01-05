@@ -37,7 +37,8 @@ W najbliższym czasie spróbuję dostosować nieco maszynę wirtualną i sposób
 
 =========== 
  
-[Program napisany w javie do dzielenia na tagi.]https://github.com/wardzinskaj/geojson/blob/master/Zad1c.java
+[Program napisany w javie do dzielenia na tagi.](https://github.com/wardzinskaj/geojson/blob/master/Zad1c.java)
+
 Użyty został sterownik  
 [mongo-java-driver-2.11.4](http://central.maven.org/maven2/org/mongodb/mongo-java-driver)
 
