@@ -57,7 +57,7 @@ Później restart bazy danych i dalej tworzę tablespace:
     CREATE TABLESPACE test DATAFILE '/u01/oradata/TSH1/test.dbf' SIZE 30G BLOCKSIZE 32768;
  
 W wyniku takich działań udało się przyspieszyć import z prawie 14 godzin do około 0,5 godziny.
-[czas importu do bazy Oracle](https://github.com/wardzinskaj/geojson/blob/master/wynik1.json)
+[czas importu do bazy Oracle](https://github.com/wardzinskaj/geojson/blob/master/czas.JPG)
 
 geojson
 =======
