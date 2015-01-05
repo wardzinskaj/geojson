@@ -3,6 +3,8 @@
     "geometries": [
         {
             "type": "Point",
+	"properites": "danger",
+
             "coordinates": 
 				[
 				106.859000, 
