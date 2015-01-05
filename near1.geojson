@@ -1,7 +1,5 @@
 {
-    
     "type": "GeometryCollection",
-
     "geometries": [
         {
             "type": "Point",
@@ -59,6 +57,6 @@
 				]
             ]
         }
-    ],
+    ]
 
 }
