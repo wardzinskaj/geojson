@@ -16,14 +16,14 @@ Pracowałam na systemie operacyjnym Linux Centos (maszynie wirtualnej). Może na
 
 Import do bazy Mongodb przy użyciu mongoimport.
  <img src="https://github.com/wardzinskaj/nosqlzal/blob/master/java_project/mongodb_import.png"> 
- Statystyki systemu podczas importu - Mongodb
+ 
+Statystyki systemu podczas importu - Mongodb.
  <img src="https://github.com/wardzinskaj/nosqlzal/blob/master/java_project/mongodb_system.png"> 
  
 Zliczenie zaimportowanych rekordów w bazie Mongodb. 
  <img src="https://github.com/wardzinskaj/nosqlzal/blob/master/java_project/mongo_count.png"> 
  
- 
- Import do bazy Oracle przy użyciu sqlldr wraz ze statystykami systemu.
+Import do bazy Oracle przy użyciu sqlldr wraz ze statystykami systemu.
  <img src="https://github.com/wardzinskaj/nosqlzal/blob/master/java_project/oracle_system.png">
 
 Zliczenie zaimportowanych rekordów w bazie Oracle. 
