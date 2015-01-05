@@ -1,8 +1,9 @@
 {
-    "type": "GeometryCollection",
       "properties": {
     "marker-symbol": "danger"
   },
+    "type": "GeometryCollection",
+
     "geometries": [
         {
             "type": "Point",
