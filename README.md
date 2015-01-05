@@ -58,8 +58,8 @@ Później restart bazy danych i dalej tworzę tablespace:
  
 W wyniku takich działań udało się przyspieszyć import z prawie 14 godzin do około 0,5 godziny.
 
-Czas importu do bazy Oracle
-<img src="https://github.com/wardzinskaj/geojson/blob/master/czas.JPG">
+Czas importu do bazy Oracle.
+ <img src="https://github.com/wardzinskaj/geojson/blob/master/czas.JPG">
 
 geojson
 =======
