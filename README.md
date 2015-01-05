@@ -27,7 +27,7 @@ Import do bazy Oracle przy użyciu sqlldr wraz ze statystykami systemu.
  <img src="https://github.com/wardzinskaj/nosqlzal/blob/master/java_project/oracle_system.png">
 
 Zliczenie zaimportowanych rekordów w bazie Oracle. 
-<img src="https://github.com/wardzinskaj/nosqlzal/blob/master/java_project/oracle_count.png">
+ <img src="https://github.com/wardzinskaj/nosqlzal/blob/master/java_project/oracle_count.png">
 
 Czas importu do bazy Oracle wyniósł 13 godzin i 47 minut podczas gdy do bazy Mongodb tylko 27 minut.
 Import do bazy Mongodb zużywał zdecydowanie mniej zasobów procesora oraz mniej pamięci RAM.
@@ -114,7 +114,6 @@ db.geojson.find({ geometry: { $geoIntersects: { $geometry: papua } } })
 
 [wynik3.json](https://github.com/wardzinskaj/geojson/blob/master/wynik2.json)<br>
 [wynik3.geojson](https://github.com/wardzinskaj/geojson/blob/master/wynik2.geojson)
-
 
 db.geojson.find({ geometry: { $geoWithin: { $geometry: papua } } })
 
