@@ -5,8 +5,7 @@
             "type": "Point",
     "properties": {
       "marker-symbol": "danger"
-    }	
-
+    },
             "coordinates": 
 				[
 				106.859000, 
