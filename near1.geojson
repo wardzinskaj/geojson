@@ -3,7 +3,9 @@
     "geometries": [
         {
             "type": "Point",
-	"properites": "danger",
+    "properties": {
+      "marker-symbol": "danger"
+    }	
 
             "coordinates": 
 				[
