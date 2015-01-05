@@ -2,46 +2,47 @@
 
 ## Semestr zimowy 2014/15
 
-Zadania na zaliczenie
-
 ## MongoDB a Oracle
+
+Zadania na zaliczenie
 
 Jak się okazało na zajęciach moje importy trwały dużo dłużej niż studentów, których projekty były przeglądane.
 Prawie 14 godzin u mnie do kilkunastu minut a nawet kilku minut w przypadku bazy Oracle. W bazie Mongodb było nieco lepiej.
 
 Pytanie - jaki był powód tak długiego importu? Jak widać na jednym z obrazków zużycie procesora było 100%.
-Pracowałam na systemie operacyjnym Linux Centos (maszynie wirtualnej). Może należałoby zmienić sprzęt? Albo dostosować tak aby procesor był bardziej przyjazny 
+Pracowałam na systemie operacyjnym Linux Centos (maszynie wirtualnej). Może należałoby zmienić sprzęt? Albo dostosować tak aby procesor był bardziej przyjazny.
 
 ### Jak to wyglądało?
 
-Import do bazy Mongodb przy użyciu mongoimport
+Import do bazy Mongodb przy użyciu mongoimport.
  <img src="https://github.com/wardzinskaj/nosqlzal/blob/master/java_project/mongodb_import.png"> 
- <p>Statystyki systemu podczas importu - Mongodb</p>
+ Statystyki systemu podczas importu - Mongodb
  <img src="https://github.com/wardzinskaj/nosqlzal/blob/master/java_project/mongodb_system.png"> 
  
- <p>Zliczenie zaimportowanych rekordów w bazie Mongodb. </p>
+Zliczenie zaimportowanych rekordów w bazie Mongodb. 
  <img src="https://github.com/wardzinskaj/nosqlzal/blob/master/java_project/mongo_count.png"> 
  
  
- <p>Import do bazy Oracle przy użyciu sqlldr wraz ze statystykami systemu. </p>
+ Import do bazy Oracle przy użyciu sqlldr wraz ze statystykami systemu.
  <img src="https://github.com/wardzinskaj/nosqlzal/blob/master/java_project/oracle_system.png">
 
-<p>Zliczenie zaimportowanych rekordów w bazie Oracle. </p>
+Zliczenie zaimportowanych rekordów w bazie Oracle. 
 <img src="https://github.com/wardzinskaj/nosqlzal/blob/master/java_project/oracle_count.png">
-<p></p>
-<p>Czas importu do bazy Oracle wyniósł 13 godzin i 47 minut podczas gdy do bazy Mongodb tylko 27 minut.</p>
-<p>Import do bazy Mongodb zużywał zdecydowanie mniej zasobów procesora oraz mniej pamięci RAM.</p>
-<p>W przypadku importu do bazy Oracle obciążenie procesora jest przez większość czasu maksymalne</p>
-<p>Na wirtualnej maszynie jest procesor jednordzeniowy</p>
-<p>W najbliższym czasie spróbuję dostosować nieco maszynę wirtualną i sposób działania bazy tak aby zoptymalizować nieco importy.</p>
 
+Czas importu do bazy Oracle wyniósł 13 godzin i 47 minut podczas gdy do bazy Mongodb tylko 27 minut.
+Import do bazy Mongodb zużywał zdecydowanie mniej zasobów procesora oraz mniej pamięci RAM.
+W przypadku importu do bazy Oracle obciążenie procesora jest przez większość czasu maksymalne.
+Na wirtualnej maszynie jest procesor jednordzeniowy.
+W najbliższym czasie spróbuję dostosować nieco maszynę wirtualną i sposób działania bazy tak aby zoptymalizować nieco importy.
 
 =========== 
  
-Program napisany w javie do dzielenia na tagi. Użyty został sterownik  [mongo-java-driver-2.11.4](http://central.maven.org/maven2/org/mongodb/mongo-java-driver)
-<p>https://github.com/wardzinskaj/geojson/blob/master/Zad1c.java</p>
+[Program napisany w javie do dzielenia na tagi.]https://github.com/wardzinskaj/geojson/blob/master/Zad1c.java
+Użyty został sterownik  
+[mongo-java-driver-2.11.4](http://central.maven.org/maven2/org/mongodb/mongo-java-driver)
 
-<p>Zamiana danych ze Stringa na tagi - program wypisuje czas jaki zajęło przetwarzanie danych, liczbę tagów i liczbę tagów unikalnych.</p>
+
+Zamiana danych ze Stringa na tagi - program wypisuje czas jaki zajęło przetwarzanie danych, liczbę tagów i liczbę tagów unikalnych.
 <img src="https://github.com/wardzinskaj/geojson/blob/master/zamiana_na_tagi_java.PNG"> 
 
 
