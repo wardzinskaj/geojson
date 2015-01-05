@@ -1,12 +1,18 @@
-{
-  "type": "GeometryCollection",
-  "geometries": {
-    "type": "MultiPoint",
-    "coordinates": [[122.418100, -2.899500],
-	 [ 106.859000, -6.156000]
-	]
-  },
-  "properties": {
-    "marker-symbol": "danger"
-  }
-}
+﻿{
+"geometries": 
+[
+{"coordinates":
+﻿[
+ [122.418100, -2.899500],
+ [ 106.859000, -6.156000],
+]	 
+﻿"type": "MultiPoint"}, 
+﻿{"coordinates": 
+[[[99.140625,-45.828799], 
+﻿[99.140625,3.864254], 
+﻿[153.281250,3.864254], 
+﻿[153.281250,-45.82879925], 
+﻿[99.140625,-45.828799]]], 
+﻿"type": "Polygon"}],
+ 
+﻿"type": "GeometryCollection"}
