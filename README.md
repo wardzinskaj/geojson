@@ -1,6 +1,10 @@
-zadania na zaliczenie
+# NoSql 
 
-MongoDB a Oracle
+## Semestr zimowy 2014/15
+
+Zadania na zaliczenie
+
+## MongoDB a Oracle
 ========
 <p>Jak się okazało na zajęciach moje importy trwały dużo dłużej niż studentów, których projekty były przeglądane.<br>
 Prawie 14 godzin u mnie do kilkunastu minut a nawet kilku minut w przypadku bazy Oracle. W bazie Mongodb było nieco lepiej.<br>
