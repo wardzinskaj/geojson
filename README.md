@@ -50,11 +50,11 @@ Zamiana danych ze Stringa na tagi - program wypisuje czas jaki zajęło przetwar
 
 Po zapoznaniu się z literaturą podjęłam próbę przyspieszenia importu do bazy Oracle. Zmieniłam rozmiar podstawowego, logicznego elementu bazy danych. Zmiana db_block_size z 8192 na 32768. Oto jak to zrobiłam:
  
- ALTER SYSTEM SET DB_32K_CACHE_SIZE=16M SCOPE=SPFILE;
+    ALTER SYSTEM SET DB_32K_CACHE_SIZE=16M SCOPE=SPFILE;
 
 Później restart bazy danych i dalej tworzę tablespace:
  
- CREATE TABLESPACE test DATAFILE '/u01/oradata/TSH1/test.dbf' SIZE 30G BLOCKSIZE 32768;
+    CREATE TABLESPACE test DATAFILE '/u01/oradata/TSH1/test.dbf' SIZE 30G BLOCKSIZE 32768;
  
 
 geojson
