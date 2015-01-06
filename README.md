@@ -46,7 +46,7 @@ Użyty został sterownik
 Zamiana danych ze Stringa na tagi - program wypisuje czas jaki zajęło przetwarzanie danych, liczbę tagów i liczbę tagów unikalnych.
 <img src="https://github.com/wardzinskaj/geojson/blob/master/zamiana_na_tagi_java.PNG"> 
 
-## Import do bazy Oracle - druge podejście
+## Import do bazy Oracle - drugie podejście
 
 Po zapoznaniu się z literaturą podjęłam próbę przyspieszenia importu do bazy Oracle. Zmieniłam rozmiar podstawowego, logicznego elementu bazy danych. Zmiana db_block_size z 8192 na 32768. Oto jak to zrobiłam:
  
