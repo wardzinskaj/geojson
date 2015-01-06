@@ -65,15 +65,24 @@ Czas importu do bazy Oracle.
 Z racji tego, że maszyna wirtualna miała tylko jeden procesor, nie użyłam opcji Parallel Loads zwielokrotniającej proces ładowania.
 
 =======
-geojson
+Geojson
 =======
 
-var dzakarta = { type: "Point", coordinates: [ 106.859000, -6.156000] }
+W moim zadaniu dotyczącym formatu geojson zajęłam się trzęsieniami ziemi.
 
-db.geojson.find( { geometry: { $near: { $geometry: dzakarta } } } ).limit(1)
+W celu sprostania wymaganiom ustawiłam koordynaty Dżakarty. W pobliżu tego rejonu występuje wiele trzęsień ziemi dzięki temu wykorzystanie różnego rodzaju zapytań wydaje się bardziej prawdopodobne i sensowne. 
+
+Oto koordynaty:
+
+    var dzakarta = { type: "Point", coordinates: [ 106.859000, -6.156000] }
+
+I jedno trzęsienie ziemi, znajdujące się w pobliżu: 
+
+    db.geojson.find( { geometry: { $near: { $geometry: dzakarta } } } ).limit(1)
 
 [wynik1.json](https://github.com/wardzinskaj/geojson/blob/master/wynik1.json)<br>
 [wynik1.geojson](https://github.com/wardzinskaj/geojson/blob/master/near1.geojson) 
+
 
 ```
 var austrIndo = {
