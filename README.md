@@ -76,13 +76,14 @@ Oto koordynaty:
 
     var dzakarta = { type: "Point", coordinates: [ 106.859000, -6.156000] }
 
-I jedno trzęsienie ziemi, znajdujące się w pobliżu: 
+Wybrałam jedno trzęsienie ziemi, znajdujące się w pobliżu: 
 
     db.geojson.find( { geometry: { $near: { $geometry: dzakarta } } } ).limit(1)
 
 [wynik1.json](https://github.com/wardzinskaj/geojson/blob/master/wynik1.json)<br>
 [wynik1.geojson](https://github.com/wardzinskaj/geojson/blob/master/near1.geojson) 
 
+Z tego samego powodu zdefiniowałam też Poligon, leżący w okolicy Australii.
 
 ```
 var austrIndo = {
@@ -100,10 +101,12 @@ var austrIndo = {
   
   ```
 
-db.geojson.find({ geometry: { $geoWithin: { $geometry: austrIndo } } })
+    db.geojson.find({ geometry: { $geoWithin: { $geometry: austrIndo } } })
 
 [wynik2.json](https://github.com/wardzinskaj/geojson/blob/master/wynik8.json)<br>
 [wynik2.geojson](https://github.com/wardzinskaj/geojson/blob/master/wynik8.geojson)
+
+A także poligon w okolicy Papuy
 
 ```
 var papua = {
@@ -123,27 +126,33 @@ var papua = {
  }
 ```
 
-db.geojson.find({ geometry: { $geoIntersects: { $geometry: papua } } })
+    db.geojson.find({ geometry: { $geoIntersects: { $geometry: papua } } })
 
 [wynik3.json](https://github.com/wardzinskaj/geojson/blob/master/wynik2.json)<br>
 [wynik3.geojson](https://github.com/wardzinskaj/geojson/blob/master/wynik2.geojson)
 
-db.geojson.find({ geometry: { $geoWithin: { $geometry: papua } } })
+    db.geojson.find({ geometry: { $geoWithin: { $geometry: papua } } })
 
 [wynik4.json](https://github.com/wardzinskaj/geojson/blob/master/wynik3.json)<br>
 [wynik4.geojson](https://github.com/wardzinskaj/geojson/blob/master/wynik3.geojson)
 
-db.geojson.find( {  geometry: {   $near: {    $geometry: {     type : "Point",      coordinates : [0,0]    },    $maxDistance:6250000,   }  } } )
+Poniżej zapytanie dotyczące punktu (0,0)
+
+    db.geojson.find( {  geometry: {   $near: {    $geometry: {     type : "Point",      coordinates : [0,0]    },    $maxDistance:6250000,   }  } } )
 
 [wynik5.json](https://github.com/wardzinskaj/geojson/blob/master/wynik5.json)<br>
 [wynik5.geojson](https://github.com/wardzinskaj/geojson/blob/master/wynik5.geojson)
 
-db.geojson.find( {  geometry: {   $near: {    $geometry: {     type : "Point",      coordinates : [126.926, 1.7742]    },    $minDistance:17000000, $maxDistance:18000000   }  } } )
+Tutaj dwa punkty mieszczące sie w zadanej odległości, nie większej niż... i nie mniejszej niż...
+
+    db.geojson.find( {  geometry: {   $near: {    $geometry: {     type : "Point",      coordinates : [126.926, 1.7742]    },    $minDistance:17000000, $maxDistance:18000000   }  } } )
 
 [wynik6.json](https://github.com/wardzinskaj/geojson/blob/master/wynik6.json)<br>
 [wynik6.geojson](https://github.com/wardzinskaj/geojson/blob/master/wynik6.geojson)
 
-db.geojson.find( {   geometry: {    $geoIntersects: {     $geometry: {      type : "LineString",       coordinates : [[126.926, 10.7742],[126.926, -2.0656]]     }    }   }  })
+Punkt leżący na linii
+
+    db.geojson.find( {   geometry: {    $geoIntersects: {     $geometry: {      type : "LineString",       coordinates : [[126.926, 10.7742],[126.926, -2.0656]]     }    }   }  })
 
 [wynik7.json](https://github.com/wardzinskaj/geojson/blob/master/wynik7.json)<br>
 [wynik7.geojson wraz z obiektem LineString z zapytania](https://github.com/wardzinskaj/geojson/blob/master/wynik7.geojson)
